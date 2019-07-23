@@ -13,7 +13,6 @@ function getTime(){
  		
  		console.log('date--->', hour, min, sec < 10);
 
-		
 		// 한 자리수 경우 앞에 0을 붙임
 		clockTitle.innerHTML = `${hour < 10 ? `0${hour}` : hour} : ${min < 10 ? `0${min}` : min} : ${sec < 10 ? `0${sec}` : sec}`;
 }
