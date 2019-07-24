@@ -1,20 +1,37 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="UTF-8">
-	<title>Momentum</title>
-	
-	<link rel="stylesheet" href="./css/index.css">
-	
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Nicolás Serrano Arévalo" />
+    <title>Momonton</title>
+    <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
-	<div id="test"></div>
+
+    <section class="center">
+        <div class="js-clock clock">
+            <h3 class="clock_text">00:00</h3>
+        </div>
+        <!-- <div class="js-name"></div> -->
+    </section>
+    <form class="js-form" type="name" onsubmit="return false">
+    	<input class="js-form-name" show="on" type="text" placeholder="What is your name?"  />
+    	<div class="name_text" show="off" type="text"></div>
+    </form>
+    <form class="js-form" type="todo">
+    	<input class="js-form-todo" type="text" placeholder="To Do List"/>
+    </form>
+
+    <!-- <script src="js/bg.js"></script> -->
+    <script src="js/clock.js"></script>
+    <!-- <script src="js/weather.js"></script> -->
+    <script src="js/name.js"></script>
+    <!-- <script src="js/toDo.js"></script> -->
+
 </body>
 
-	<div class="js-clock">
-		<h1 class='js-title'></h1>
-	</div>
-
-	<script src="./js/clock.js"></script>
 </html>
