@@ -1,1 +1,48 @@
-test
+
+*:focus {
+    outline: none;
+}
+
+.js-clock,
+.js-form{
+	text-align: center;
+}
+input {
+	border: none;
+	border-bottom: 5px solid #ddd;
+}
+
+
+
+/* clock */
+.clock_text{
+	font-size: 10em;
+	margin-bottom: 0;
+}
+
+
+/* Name Form, To Do */
+.form{
+	display: none;
+}
+.js-form{
+	font-size: 3em;
+}
+.name_text{
+	width: 100%;
+    text-align: center;	
+}
+.js-form[type="todo"]{
+	margin-top: 25px;
+	font-size: 2em;
+}
+.js-form-name,
+.js-form-todo{
+	font-size: 1em;
+}
+.js-form-name[show="on"]{
+	display: inline;
+}
+.js-form-name[show="off"]{
+	display: none;
+}
